@@ -126,7 +126,7 @@ module.exports = {
                 }
               )
               .setImage(
-                `https://www.habbo.com.tr/habbo-imaging/avatarimage?&user=${data.user.name}&action=std&direction=2&head_direction=3&img_format=png&gesture=sml&frame=1&headonly=0&size=m`
+                `https://www.habbo.${category}/habbo-imaging/avatarimage?&user=${data.user.name}&action=std&direction=2&head_direction=3&img_format=png&gesture=sml&frame=1&headonly=0&size=m`
               )
               .setTimestamp()
               .setFooter({
